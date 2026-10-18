@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "strengthlock",
+	"version": "${version}",
+	"name": "Strength Lock",
+	"description": "Server-side: block Strength I and/or II with a chat command.",
+	"authors": ["Server Admin"],
+	"license": "CC0-1.0",
+	"icon": "assets/strengthlock/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": ["com.strengthlock.StrengthLockMod"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
